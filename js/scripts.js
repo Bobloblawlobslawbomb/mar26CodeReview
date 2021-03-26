@@ -1,6 +1,1 @@
-$(document).ready(function () {
-  $(".clickable").click(function () {
-    $("#thing-showing").toggle();
-    $("#thing-hidden").toggle();
-  });
-});
+const language = $("input:radio[name=language]:checked").val();

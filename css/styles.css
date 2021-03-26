@@ -1,5 +1,5 @@
-#thing-showing {
-  display: none;
+h1{
+  align-self: stretch;
 }
 
 .clickable {
