@@ -1,10 +1,10 @@
-# _GV nameOfCodeReviewProject_
+# _GV Language Picker_
 
-#### _objective_
+#### _create a page to pick which programming language is right for the user_
 
 #### By _**Giancarlo Vigneri**_
 
-### Special thanks to _**Cohort of the weeks names, and the Epicodus Staff**_
+### Special thanks to _**Tiffany Greathead, Brandon Magofna, Patrick Lee, Jesse White, Jeremy Banka, and the Epicodus Staff**_
 
 ## Technologies Used
 
@@ -21,16 +21,17 @@
 *_the Collective Conscious_
 
 ## Description:
-_describe what this dang thing does_
+_page asks a series of questions and allows the user to pick from a set of 'radio' choices, page then uses those answers to determine which is the better choice of a programming language for the user and displays answer statement_
 
 ## Setup/Installation Requirements
 
 ### GitHub Pages link: 
 _easiest option_
-(https://bobloblawlobslawbomb.github.io/nameOfRepo/)
 
-1. Navigate to (https://github.com/Bobloblawlobslawbomb/nameOfRepo)
-2. Clone or download 'nameOfRepo'
+(https://bobloblawlobslawbomb.github.io/mar26CodeReview/)
+
+1. Navigate to (https://github.com/Bobloblawlobslawbomb/mar26CodeReview)
+2. Clone or download 'mar26CodeReview'
 3. Double click index.html or right-click, (select 'open with...') and choose which program to open or view files
 4. Fight Capitalism 
 
@@ -38,14 +39,18 @@ _easiest option_
 
 ## Known Bugs
 
-*_none_
+*_submit button is a WIP_
+*_page is unable to determine which programming language choice_
+*_page is unable to show hidden ids('#')_
+*_page does not use languageTicker or languageChoice variables_
+*_page targets all 'p' tags need to narrow css scope_
 
 ## Notes
 
-1. _tell the story_
-2. _of how the_ 
-3. _project came together_
-4. _justify choices i.e like the one made by including COPYING_
+1. _I included COPYING because it seemed to be a needed part of implementing the license_
+2. _I realized this week that I need to be coding more often_ 
+3. _I am going to submit what I have before the deadline, but it is not much_
+4. 
 
 ## copyright 2021 Giancarlo Vigneri
 
