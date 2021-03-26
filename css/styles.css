@@ -2,11 +2,26 @@ h1{
   align-self: stretch;
 }
 
+p{
+  float: left;
+}
+
+ul{
+  float: right;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
-  text-decoration: underline;
+
+
+#question-one, #question-two, #question-three, #question-four, #question-five, #youWantRuby, #youWantPython, #youWantRust {
+  display: none;
 }
+
+
+
+
+
