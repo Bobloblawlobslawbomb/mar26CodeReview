@@ -4,24 +4,10 @@ h1{
 
 p{
   float: left;
+  font-size: larger;
+  color: darkorchid;
 }
 
-ul{
-  float: right;
-}
-
-.clickable {
-  cursor: pointer;
-  color: #0088cc;
-}
-
-
-
-#question-two, #question-three, #question-four, #question-five, #youWantRuby, #youWantPython, #youWantRust {
+#youWantRuby, #youWantPython, #youWantRust {
   display: none;
 }
-
-
-
-
-
