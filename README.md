@@ -22,13 +22,9 @@
 
 
 ## Description:
-_page asks a series of questions via dialog prompts. Simply concatenating the answers together to form a longer string, page then uses the .length method to convert the string into a number. Then the page does a little random math follwed by an arbitrary if else if statement and shows a hidden statment._
+_page asks a series of questions via dialog prompts. Simply concatenating the answers together to form a longer string, page then uses the .length method to convert the string into a number. Then the page does a little dumb math follwed by an arbitrary if else if statement and shows a hidden statment._
 
 ## Setup/Installation Requirements
-
-### GitHub Pages link: 
-_easiest option_
-(https://bobloblawlobslawbomb.github.io/mar26CodeReview/)
 
 1. Navigate to (https://github.com/Bobloblawlobslawbomb/mar26CodeReview)
 2. Clone or download 'mar26CodeReview'
@@ -39,13 +35,9 @@ _easiest option_
 
 ## Known Bugs
 
-*_need to add list of languages and similar statement to: "Or any other word!"_
-*_want to add box behind prompt dialog boxes_
-* _need to tune evenDumberAnswer or if else statement for more variance_
-* _need to remove debug alert() methods _
-* _need to deploy to GitHub pages_
-* _README needs final pass_
 * _'Prevent this page from creating additional dialogs' checkbox appears from answer two prompt onwards. Would like to -- prevent this prevent checkbox_
+
+
 
 ## Notes
 
@@ -58,7 +50,16 @@ _easiest option_
 7. I basically wrote the whole thing on a scrap of notepad paper real fast, then plopped it into the files. I forgot to $(document).ready(function), anf I realized I was missing an end bracket....then I realized I needed to set the answerX variables before I do the math stuff. IT BASICALLY WORKED 1ST TRY!!!!!!!!
 8. _I had to spend the next 45 minutes telling my room-mate the story of my understanding. THEN I pushed the working code to GitHub.
 9. _I still have a little work to do but I have 90% and I am stoked. And I have a plan to move forward and be better for myself and my team!_
+10. _Had a nice day Saturday, went for a walk around Tabor. Slow start on Sunday, did a few errands, but I'm here now and I just finished editing the superfluous things out of the code and updating the README.  Plan is to push to GitHub, then I HAVE to build this table that has been in the living room all week (or my roommies will not be happy), then CODE! --Thanks for coming to my Ted Talk.
 
+
+## Planned Updates
+
+* _implement confirm funtion as the first question_
+* _add list of languages and similar statement to: "Or any other word!"_
+* _place box behind prompt dialog boxes_
+* _tune evenDumberAnswer or if else statement for more variance_
+* _deploy to GitHub pages_
 
 ## copyright 2021 Giancarlo Vigneri
 

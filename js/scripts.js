@@ -1,12 +1,4 @@
 $(document).ready(function () {
-  //I want one of those yes no confirms to start
-
-  /*if (beginChoice ===true) {
-    // then do answerOne prompt
-  } else {
-    //"say why are you here then?" --WIP:hidden quest
-  }*/
-
   const answerOne = prompt("Which programming language would you like to find in your shoe?")
 
   const answerTwo = prompt("Which programming language would you most like to eat?")
@@ -20,10 +12,8 @@ $(document).ready(function () {
   const allThemAnswers = answerOne + answerTwo + answerThree + answerFour + answerFive
 
   const dumbAnswer = allThemAnswers.length
-  const evenDumberAnswer = (dumbAnswer / 10) + 1
 
-  alert(dumbAnswer)//for testing variable
-  alert(evenDumberAnswer)//for testing variable
+  const evenDumberAnswer = (dumbAnswer / 10) + 1
 
   if (evenDumberAnswer <= 3) {
     $('#youWantRuby').show();
