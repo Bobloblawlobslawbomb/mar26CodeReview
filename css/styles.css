@@ -1,13 +1,12 @@
-h1{
-  align-self: stretch;
+.refresh {
+  cursor: pointer;
+  color: #0088cc;
 }
 
-p{
-  float: left;
-  font-size: larger;
-  color: darkorchid;
+.refresh:hover {
+  text-decoration: underline;
 }
 
-#youWantRuby, #youWantPython, #youWantRust {
+#youWantRuby, #youWantPython, #youWantRust, #formOne, #formTwo, #formThree, #formFour, #formFive, #results {
   display: none;
 }
