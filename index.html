@@ -18,46 +18,50 @@
     <h1></h1>
     <form id=formOne>
       <p>Which programming language would you like to find in your shoe?</p>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionOne" value="1" checked>
-          Python
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionOne" value="2">
-          Ruby
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionOne" value="3">
-          Rust
-        </label>
+      <div id=radioOneDiv>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="1" checked>
+            Python
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="2">
+            Ruby
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="3">
+            Rust
+          </label>
+        </div>
       </div>
       <button type="submit" class="btn btn-primary">Offer Answer</button>
     </form>
 
     <form id=formTwo>
       <p>Which programming language would you most like to eat?</p>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionTwo" value="1" checked>
-          Python
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionTwo" value="2">
-          Ruby
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionTwo" value="3">
-          Rust
-        </label>
+      <div id=radioTwoDiv>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="1" checked>
+            Python
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="2">
+            Ruby
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="3">
+            Rust
+          </label>
+        </div>
       </div>
       <button type="submit" class="btn btn-warning">Offer Answer</button>
     </form>
@@ -65,23 +69,25 @@
 
     <form id=formThree>
       <p>Which programming language would you LEAST mind stepping on?</p>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionThree" value="1" checked>
-          Python
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionThree" value="2">
-          Ruby
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionThree" value="3">
-          Rust
-        </label>
+      <div id=radioThreeDiv>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="1" checked>
+            Python
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="2">
+            Ruby
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="3">
+            Rust
+          </label>
+        </div>
       </div>
       <button type="submit" class="btn btn-danger">Offer Answer</button>
     </form>
@@ -89,23 +95,25 @@
 
     <form id=formFour>
       <p>Which programming language would you MOST like to step on?</p>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionFour" value="1" checked>
-          Python
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionFour" value="2">
-          Ruby
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionFour" value="3">
-          Rust
-        </label>
+      <div id=radioFourDiv>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="1" checked>
+            Python
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="2">
+            Ruby
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="3">
+            Rust
+          </label>
+        </div>
       </div>
       <button type="submit" class="btn btn-info">Offer Answer</button>
     </form>
@@ -113,30 +121,31 @@
 
     <form id=formFive>
       <p>Which programming language would you confront in a dark alley?</p>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionFive" value="1" checked>
-          Python
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionFive" value="2">
-          Ruby
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" id="questionFive" value="3">
-          Rust
-        </label>
+      <div id=radioFiveDiv>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="1" checked>
+            Python
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="2">
+            Ruby
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language" value="3">
+            Rust
+          </label>
+        </div>
       </div>
       <button type="submit" class="btn btn-dark">Offer Answer</button>
     </form>
 
     <div id=results>
       <div id=youWantRuby>
-        <!--what if i made youWantXXX a class and then .show() that ?-->
         <p>You are a Gem! Looks like you should choose Ruby!</p>
         <p><span class='refresh'>Try Again?!</span></p>
       </div>
