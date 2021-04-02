@@ -16,11 +16,11 @@ $(document).ready(function () {
   }
 
 
-  //let answerOne = 0
-  //let answerTwo = 0
-  //let answerThree = 0
-  //let answerFour = 0
-  //let answerFive = 0
+  //let answerOne
+  //let answerTwo
+  //let answerThree
+  //let answerFour
+  //let answerFive
 
 
   $("#formOne").submit(function (event) {
@@ -28,6 +28,7 @@ $(document).ready(function () {
     answerOne = $("#radioOneDiv input[type='radio']:checked").val()
     $("#formTwo").slideDown()
     $("#formOne").slideUp()
+
   })
 
 
@@ -44,6 +45,9 @@ $(document).ready(function () {
     $("#formFour").slideDown()
     $("#formThree").slideUp()
   })
+
+  console.log(answerOne)
+
   $("#formFour").submit(function (event) {
     event.preventDefault();
     answerFour = $("#radioFourDiv input[type='radio']:checked").val()
@@ -58,6 +62,7 @@ $(document).ready(function () {
     $("h1").hide()
   })
 
+  console.log(answerOne)
   let answerSum = answerOne + answerTwo + answerThree + answerFour + answerFive
 
   if (answerSum <= 5) {
