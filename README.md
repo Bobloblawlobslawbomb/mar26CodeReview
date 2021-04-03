@@ -54,7 +54,7 @@ _The page asks a series of questions via radio buttons and a 'submit' button lab
 ## Planned Updates
 
 * _implement confirm function as the first question_
-* _get the page to make try judements of character_
+* _get the page to make true judements of character_
 * _deploy to GitHub pages_
 
 ## copyright 2021 Giancarlo Vigneri
