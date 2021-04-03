@@ -56,13 +56,3 @@ $(document).ready(function () {
     location.reload()
   })
 })
-
-/*
- const pickOrNot = confirm("Would you like to pick a programming language? Click OK for yes or Cancel for no.")
-  if (pickOrNot === true) {
-  $("h1").text("Let's answer a few questions:")
-  $("#formOne").show()
-  }
-  else {
-  $("h1").text("That's cool. You do you.")
-  }*/
