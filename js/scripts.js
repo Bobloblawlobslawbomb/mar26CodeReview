@@ -1,11 +1,9 @@
-let answerOne
-let answerTwo
-let answerThree
-let answerFour
-let answerFive
-let answerSum
-
 $(document).ready(function () {
+  let answerOne
+  let answerTwo
+  let answerThree
+  let answerFour
+  let answerFive
 
   $("#formOne").submit(function (event) {
     event.preventDefault();
