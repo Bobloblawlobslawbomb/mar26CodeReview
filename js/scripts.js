@@ -40,7 +40,7 @@ $(document).ready(function () {
     $("#results").fadeIn()
     $("h1").hide()
 
-    let answerSum = answerOne + answerTwo + answerThree + answerFour + answerFive
+    const answerSum = answerOne + answerTwo + answerThree + answerFour + answerFive
     if (answerSum <= 5) {
       $('#youWantPython').show();
     } else if (answerSum <= 10 && answerSum > 5) {
